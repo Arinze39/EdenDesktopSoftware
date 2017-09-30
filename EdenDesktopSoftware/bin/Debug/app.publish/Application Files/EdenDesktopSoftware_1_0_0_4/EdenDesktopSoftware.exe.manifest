@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EdenDesktopSoftware.exe" version="1.0.0.4" publicKeyToken="8cb41cf9ce1c2172" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="Arinze Softwares" asmv2:product="Eden Software" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EdenDesktopSoftware" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EdenDesktopSoftware.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="12.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="12.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="12.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="12.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EdenDesktopSoftware.exe" size="846784">
+      <assemblyIdentity name="EdenDesktopSoftware" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MNntyoHVP2RTuBHJuf9B1l6smAxHmnvCUUBzRBPL2yQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="563392">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="12.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sQraLWiB7q2Q3DGfeRq9DV1vAo41MrfXZBrd0AGvuTw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EdenDb.accdb" size="753664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dlu3RFrifSPvGzId2jEYiYBr5t2ekpCrFkwzd4+GALw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EdenDesktopSoftware.exe.config" size="525">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tEsNxmJOmIMLJ3Q+aR4AW25gyntoRWYBXsYNaH6dxG4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Arinze-PC\Arinze" issuerKeyHash="dfba82f66e6cca3f019f531676a40c7b57fd1250" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JdQGnlX3DFGjZYCr0vFct7VtcdQKzbul0ZbJACQsw+A=</DigestValue></Reference></SignedInfo><SignatureValue>pUb1QS6SRXATWnww7/e38Z+eYrG/TSn4zXZWKaVe2Tc926ClJep7UFACimlKut+sfMIeDAnoWLPiBOBCd9cm7GO7bCbFLWfGSHDlYor6+c2ibjqLT5jNpX0S6yMCqCYtLTfA0jI+QGS7a41nKYvhqvBCmQ3aEiAR3LnuS8hndtQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1Z6It1+wCvQAIsw2K0cMIVmlXJ7/wrPIx/iPWopXH39ZUoefDMtmIm5h2E/N607qiyXrLDdDflF2SE/8GTmHzAii79h9ZWVCm62dXXaN/IISA3/Gy+HR8o8bLQqAfvoXJi6UsbiltsY9Pg1bZo99MtAtw4qtsdChkbX2Zexqdcs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e0c32c2400c996d1a5bbcd0ad4716db5b75cf1d2ab8065a3510cf7559e06d425" Description="" Url=""><as:assemblyIdentity name="EdenDesktopSoftware.exe" version="1.0.0.4" publicKeyToken="8cb41cf9ce1c2172" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Arinze-PC\Arinze</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N2M6/+9w6c6Fkd9Sn7XPT3w8LfnKx0vrlCQAA/x9g+I=</DigestValue></Reference></SignedInfo><SignatureValue>sxs9h2LjLdfVSS/MqFANo5EGg3XvFfeeLuxHF82v6TpKKGnU095+NkgMufNdL12ltdapkDYEA0c1BqgVnpwLM0kvtzR/TgMqGGuOxh7TvIglwwxeTSfqJBOGcZ4DKdzGm+48SH2g/DOKtH/Xl1uBKjWPBc1MilpL7DSI3DXPXD4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1Z6It1+wCvQAIsw2K0cMIVmlXJ7/wrPIx/iPWopXH39ZUoefDMtmIm5h2E/N607qiyXrLDdDflF2SE/8GTmHzAii79h9ZWVCm62dXXaN/IISA3/Gy+HR8o8bLQqAfvoXJi6UsbiltsY9Pg1bZo99MtAtw4qtsdChkbX2Zexqdcs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQbB1LhUNSeZBCOt4DqujdXTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQByAGkAbgB6AGUALQBQAEMAXABBAHIAaQBuAHoAZTAeFw0xNzA1MTUyMDQ4MzVaFw0xODA1MTYwMjQ4MzVaMCsxKTAnBgNVBAMeIABBAHIAaQBuAHoAZQAtAFAAQwBcAEEAcgBpAG4AegBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVnoi3X7AK9AAizDYrRwwhWaVcnv/Cs8jH+I9ailcff1lSh58My2YibmHYT83rTuqLJessN0N+UXZIT/wZOYfMCKLv2H1lZUKbrZ1ddo38ghIDf8bL4dHyjxstCoB++hcmLpSxuKW2xj0+DVtmj30y0C3Diq2x0KGRtfZl7Gp1ywIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIqSa6OZr8PmADawV3l5CmPALVcZCBY/o+ilnLIE4c5wX78XDRlRFaBLeEP4pW3bqrZ6INLPj9RdPOJtcRfj7pbxT6lX+KyNH5+ciins3bHK92ldHbgPJ18pOAFR+N+0OzyZfYBClB6umL0eVZBajk01eukoK4AAdhdiFYbYZqo8</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
